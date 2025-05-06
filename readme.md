@@ -39,7 +39,7 @@ docker-compose up --build
 Rebuilds the Docker image (required if you've changed the Dockerfile, requirements.txt, or source code).
 Then starts the container.
 
-#### ⚙️ Run Without Rebuilding
+#### ⚙️ Run without Rebuilding
 
 ```bash
 docker-compose up
