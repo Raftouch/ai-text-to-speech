@@ -6,7 +6,7 @@ import os
 
 os.makedirs('output', exist_ok=True)
 
-device = 0 if torch.cuda.is_available() else -1
+device = "cuda" if torch.cuda.is_available() else "cpu"
 
 synthesiser = pipeline("text-to-speech", "microsoft/speecht5_tts", device=device)
 
